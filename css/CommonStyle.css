@@ -1,0 +1,192 @@
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+}
+body{
+	
+    font-family: "NeuzeitGro", "Helvetica Neue", "Helvetica", sans-serif;
+	background-color: #f7f7f8;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+}
+a{
+	text-decoration: none;
+	
+}
+
+/*header*/
+.header{
+	width: 100%;
+	position: relative;
+    min-height: 1px;
+    height: 80px;
+    background-color: rgb(22, 22, 22);
+    z-index: 2;
+}
+.headerDa{
+	width: 85%;
+	height: 60px;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+.headerDa_left{
+	position: absolute;
+    width: 40px;
+    height: 40px;
+}
+.headerDa_left .logo{
+    font-size: 40px;
+    color: rgb(224, 31, 61);
+}
+.HDm_ul{
+	display: flex;
+	padding: 9px 170px 0px 110px;
+}
+.HDm_ul li{
+	float: left;
+	text-transform: uppercase;
+    flex: 1 1 0%;
+	font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.HDm_ul li a{
+	 color: rgb(255, 255, 255);
+}
+.HDm_ul li span{
+	color: rgb(167, 166, 166);
+	font-weight: 600;
+	font-size: 20px;
+}
+.caidan{
+	position: absolute;
+	right: 210px;
+	bottom: 22px;
+}
+.caidan span{ 
+	font-size: 26px;
+	color: #fff;
+}
+.headerDa_R{
+	position: absolute;
+	right: 100px;
+	bottom: 18px;
+	width: 36px;
+	height: 36px;
+}
+.headerDa_R .soSuo{
+	font-size: 18px;
+    margin: 0px auto;
+    line-height: 36px;
+    color: #fff;
+    font-weight: 600;
+}
+/*footer*/
+.footer{
+	padding-top: 90px;
+	background-color: #fff;
+}
+.footer_Da{
+	width: 85%;
+	display: flex;
+	margin: 0 auto
+}
+.footer_Da .f_logo{
+	flex: 0 0 25%;
+}
+.footer_Da .f_logo a{
+	display: block;
+    font-size: 40px;
+    color: rgb(224, 31, 61);
+}
+.f_right{
+	flex: 0 0 75%;
+	display: flex;
+}
+.product{
+	flex: 1;
+}
+.product h2{
+	font-size: 20px;
+	padding-top: 9px;
+    margin:0.83em 0 20px 0;
+    line-height: 1.6em;
+    color: #222021;
+}
+.product ul{
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    color: #a7a6a6;
+    margin-bottom: 50px;
+}
+.product ul li{
+	margin-bottom: 18px;
+}
+.footer_bottom{
+	background-color: white;
+    padding-bottom: 40.0px;
+}
+.footer_bottom p{
+	font-size: 10.0px;
+    color: gray;
+    margin: 0 auto;
+    width: 80.0%;
+    text-align: center;
+}
+@media screen and (max-width:1160px){
+	/*header响应*/
+	.header{
+		height: 50px;
+	}
+	.headerDa .headerDa_left{
+		position: absolute;
+		left: 49%;
+		top: 25%;
+	}
+	.headerDa .headerDa_left .logo{
+		font-size: 25px;
+	}
+	.headerDa .headerDa_middle{
+		display: none;
+	}
+	.headerDa_R{
+	    position: absolute;
+	    left: 34px;
+	    top: 16%;
+	}
+	.headerDa_R .soSuo{
+	    color: #6e6e6e;
+	}
+	.caidan{
+		position: absolute;
+		right: 4%; 
+    	bottom: 20%;
+	}
+	.caidan span{
+		color: #6e6e6e;
+	}
+	/*footer*/
+	.footer {
+    	padding-top: 60px;
+	}
+	.product h2 {
+	    font-size: 18px;
+	    margin-bottom: 12px;
+	}
+	.product ul li {
+	    margin-bottom: 10px;
+	}
+	.product ul{
+    	margin-bottom: 36px;
+	}
+}
+@media screen and (max-width:470px){
+	.f_right {
+		display: block;
+	}
+}

@@ -1,0 +1,167 @@
+.center{
+	width: 100%;
+}
+.C_backg{ 
+	width: 100%;
+	height: 405px;
+    text-align: center;
+    margin-bottom: 115px;
+}
+.CB_img{
+	background: url("../img/headset/hb.jpg") no-repeat;
+	background-size: cover;
+    background-position: center;
+    width: 100%; 
+    height: 100%;
+}
+   
+.CB_text{
+	position: relative;
+	top: -64%;
+	width: 85%;
+	margin: 0 auto;
+}
+.CB_text h1{
+	color: #fff;
+	padding-top: 9px;
+	font-size: 70px;
+}
+.center_cent{
+	width: 85%;
+	margin: 0 auto;
+}
+.Studio3{
+	margin: 0 0 20px;
+    padding: 0px 20px 0px 20px;
+    background-color: #fff;
+    display: flex;
+}
+.Studio3_right{
+	width: 41.66667%;
+    align-self: center;
+    margin-left: 50%;
+}
+.Studio3_right img{
+	display: block;
+    max-width: 100%;
+}
+.Studio3_left{
+	padding: 70px 0;
+	width: 33.33333%;
+	margin-left: -83.33333%;
+    display: inline-block;
+    font-size: 0.93rem;
+}
+.Studio3_left h2{
+	font-size: 50px;
+    padding-top: 9px;
+    line-height: 1.6em;
+    margin: 0.83em 0 0.66667rem 0;
+}
+.Studio3_left h2 span{
+	color: red;
+    font-size: 0.675em;
+    top: -0.4em;
+    position: relative;
+}
+.Studio3_left p{
+	    margin-bottom: 1em;
+	    color: #8c8c8c;
+	padding-right: 25%;
+}
+.SL_uls{
+	margin-top: 17px;
+}
+.SL_uls li{
+	position: relative;
+    padding-left: 28px;
+    font-size: 0.86666666666667rem;
+    color: #a9adb0;
+    margin-bottom: 10px;
+    font-weight: 500;
+    letter-spacing: 0.055em;
+}
+.SL_uls .SLuls_yuanDian{
+	font-size: 10px;
+    color: #919191;
+    position: absolute;
+    top: 4px;
+    left: 0px;
+}
+.SLuls_R{
+	font-size: 1em;
+    vertical-align: baseline;
+    top: -0.4em;
+    position: relative;
+}
+.SL_money{
+	margin-top: 30px;
+}
+.SL_money .SLM_p{
+	display: inline-block;
+    font-size: 22px;
+    vertical-align: middle;
+    color: #222021;
+    margin-right: 15px;
+    line-height: 1;
+    margin-top: 8px;
+    margin-bottom: 0;
+    padding-right: 0;
+}
+.Con_bottom{
+	margin-top: 25px;
+	color: #222021;
+	
+}
+.CB_left,.CB_right{
+	margin-top: 5px;
+    min-width: 120px;
+    color: #222021;
+	padding: 5px 37px 0 37px;
+	display: inline-block;
+	border-radius: 50px;
+	line-height: 39px;
+    font-size: 1.0666666667rem;
+    box-shadow: inset 0px 0px 0px 2px #d3d2d2;
+    text-align: center;
+}
+.CB_right{
+	background-color: #e01e3c;
+    box-shadow: none;
+    color: #fff;
+}
+.CB_right i{
+	font-size: 1.1em;
+}
+@media screen and (max-width:1160px){
+	.Studio3{
+		display: block;
+	}
+	.Studio3_right{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.Studio3_right img{
+		margin: 0 auto;
+	}
+	.Studio3_left{
+		width: 90%;
+		margin: 0 auto;
+		padding-left:10%;
+		padding-top: 0;
+	}
+	.Studio3_left h2 {
+    	font-size: 46px;
+	}
+}
+@media screen and (max-width:768px){
+	.C_backg{ 
+		height: 175px;
+	}
+	.CB_text h1{
+		font-size: 28px;
+	}
+}
+@media screen and (max-width:470px){
+	
+}
