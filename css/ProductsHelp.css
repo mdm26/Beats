@@ -1,0 +1,264 @@
+/*背景图*/
+.C_backg{ 
+	width: 100%;
+	height: 370px;
+    text-align: center;
+}
+.CB_img{
+	background: url("../img/ProductsHelp/bg1.jpg") no-repeat;
+	background-size: cover;
+    background-position: center;
+    width: 100%; 
+    height: 100%;
+}
+   
+.CB_text{
+	position: relative;
+	top: -64%;
+	width: 85%;
+	margin: 0 auto;
+}
+.CB_text h1{
+	color: #222021;
+	padding-top: 9px;
+	font-size: 60px;
+}
+.CB_text p{
+	color: #222021;
+	padding-top: 9px;
+	margin-bottom: 1em;
+	font-weight: 600;
+}
+/*您需要哪方面的帮助*/
+.c_Help{
+    padding: 80px 0 80px 0;
+	background-color: #FFFFFF;
+}
+.CH_center{
+	width: 85%;
+	margin: 0 auto;
+}
+.CH_center h1{
+	text-align: center;
+    font-size: 50px;
+    padding-top: 9px;
+    line-height: 1.6em;
+    margin-top: 0.83em;
+    margin-bottom: 0.6666666667rem;
+}
+.CH_center p{
+	color: #8C8C8C;
+	margin-bottom: 85px;
+    text-align: center;
+}
+.CH_bottom{
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+}
+.CHB_one{
+	width: 16.66667%;
+    margin-left: 8.33333%;
+    float: left;
+}
+.CHB_one img{
+    max-width: 80%;
+    display: block;
+}
+.CHB_one h3{
+    font-size: 24px;
+	margin-top: 40px;
+}
+.CBHtow_top{
+    margin-bottom: 0px;
+    margin-top: 22px;
+    font-size: 0.8rem;
+}
+.CBHtow_top li{
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.CBHtow_top li span{
+	font-size: 12px;
+}
+.CBHtow_bottom{
+    padding: 2px 0px 0px;
+    color: rgb(30, 30, 30);
+    letter-spacing: 0.5px;
+}
+.CBHtow_bottom span{
+	color: #FFFFFF;
+	height: 18px;
+	line-height: 18px;
+	padding-top: 1px;
+	text-align: center;
+	width: 18px;
+	background-color: #000;
+	display: inline-block;
+	border-radius: 50%;
+}
+sup {
+    font-size: 0.675em;
+    vertical-align: baseline;
+    top: -0.4em;
+    position: relative;
+}
+/*热门主题*/
+.C_theme{ 
+	position: relative;
+	width: 100%;
+	height:915.9px;
+}
+.CTheme_img{
+	background: url(../img/ProductsHelp/bg.jpg) 0% 0% / cover no-repeat;
+    width: 100%; 
+    height: 100%;
+}
+.CTheme_text{
+	position: absolute;
+    top:25%;
+    width: 33.3333%;
+    margin-left: 16%;
+}
+.CTheme_text h2{
+    font-size: 3.125rem;
+    text-align: left;
+    margin-top: 0.83em;
+	margin-bottom: 26px;
+    padding-top: 9px;
+    line-height: 1.6em;
+}
+.SA_feature{
+    padding: 0 30px 0 30px;
+    border-top: solid 1px #dddddd;
+}
+.SA_feature:last-child {
+    border-bottom: solid 1px #dddddd;
+}
+.SA_feature h4{
+	color: #1e1e1e;
+	font-weight: 500;
+    margin-bottom: 0;
+    font-size: 1rem; 
+    line-height: 2.1rem;
+    padding: 42px 0 34px 0;
+}
+.SA_feature h4 span{
+    display: inline-block;
+    float: right;
+   	font-size: 30px;
+    margin-left: 0px;
+    color: #222021;
+}
+/*更多资源*/
+.selection{
+	position: relative;
+	margin-bottom: 115px;
+	max-width: 94.66667rem;
+    padding-top: 80px;
+}
+.sel_top{
+	margin-bottom: 50px;
+    text-align: center;
+}
+.sel_top h2{
+	margin-top: 0.83em;
+	font-size: 50px;
+	padding-top: 9px;
+    line-height: 1.6em;
+    color: #222021;
+    font-weight: 700;
+}
+.sel_bottom{
+	width: 85%;
+	margin: 20px auto;
+	display: flex;
+	text-align: center;
+}
+.SB_left{
+	max-width: 80%;
+	flex: 1 1 32%;
+	background-color: #fff;
+	margin: 0 0.8%;
+	padding: 50px 10px;
+}
+.SBL_bot{
+	padding: 10px 0 0px 0;
+}
+.SBL_bot h3{
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.5em;
+    color: #222021;
+    font-weight: 700;
+}
+.SBL_bot p{
+	width: 85%;
+	margin: 0 auto;
+	font-size: 0.9375rem;
+    min-height: 90px;
+    margin-bottom: 1em;
+    color: #8c8c8c;
+    line-height: 1.6;
+}
+.SBL_bot h3 span{
+	font-size: 0.675em;
+    vertical-align: baseline;
+    top: -0.4em;
+    position: relative;
+}
+.SBL_bot{
+	margin-left: 0;
+}
+.SBL_button{
+	display: inline-block;
+    padding: 6px 36px 0 36px;
+    margin-top: 34px;
+    line-height: 39px;
+    font-size: 1.0666666667rem;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 0px 2px #d3d2d2;
+}
+
+@media screen and (max-width:768px){
+	.C_backg{ 
+		height: 175px;
+	}
+	.CB_text h1,.CH_center h1{
+		font-size: 28px;
+	}
+	.c_Help{
+		padding: 40px 0;
+	}
+	.CH_bottom{
+		display: block;
+	}
+	.CHB_one{
+		float: none;
+		width: 100%;
+		padding: 30px 0;
+	}
+	.C_theme{
+		height: 500px;
+	}
+	.CTheme_img{
+		background: none;
+	}
+	.CTheme_text{
+		width: 80%;
+		margin: 0 10%;
+		top: 5%;
+	}
+	.sel_bottom{
+		display: block;
+	}
+	.SB_left{
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+}
+
